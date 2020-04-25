@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>嘿嘿</title>
-    <link>http://example.org/</link>
+    <link>http://lllllxxt.xyz/</link>
     <description>Recent content on 嘿嘿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Sat, 25 Apr 2020 13:51:10 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lllllxxt.xyz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>第一篇博客</title>
-      <link>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://lllllxxt.xyz/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 25 Apr 2020 13:51:10 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://lllllxxt.xyz/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>第一篇 </description>
     </item>
     
     <item>
       <title>记录</title>
-      <link>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://lllllxxt.xyz/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 31 Dec 2018 13:51:10 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://lllllxxt.xyz/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>看雪</description>
     </item>
     
