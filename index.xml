@@ -6,10 +6,25 @@
     <description>Recent content on 嘿嘿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 25 Apr 2020 13:51:10 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 14:45:15 +0800</lastBuildDate>
     
 	<atom:link href="http://lllllxxt.xyz/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何用hugo搭建个人博客</title>
+      <link>http://lllllxxt.xyz/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 25 Apr 2020 14:45:15 +0800</pubDate>
+      
+      <guid>http://lllllxxt.xyz/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>安装  环境：windows   将hugo.exe移动至/D/Software/hugo目录 将路径添加到path 启动终端，使用hugo version验证安装  创建站点 hugo new site quickstart 生成一个quickstart项目
+选择主题 首先，从Github下载主题并添加至本地theme目录
+cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 然后向站点配置文件config.toml添加此主题
+echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml 写博客  使用new命令新建博客：  hugo new posts/my-first-post.md 新文件的模板如下：
+--- title: &amp;quot;My First Post&amp;quot; date: 2019-03-26T08:47:11+01:00 draft: true --- 修改draft选项为true以应用草稿
+预览 hugo server -D 即可在本地http://localhost:1313/预览
+部署  在quickstar目录中新建.gitignore，写入/public/ cd public/ git init git add . git commit -v  在Github上新建一个名为x.</description>
+    </item>
     
     <item>
       <title>第一篇博客</title>

@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://lllllxxt.xyz/posts/" />
-<meta property="og:updated_time" content="2020-04-25T13:51:10+08:00" />
+<meta property="og:updated_time" content="2020-04-25T14:45:15+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -91,6 +91,27 @@
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="http://lllllxxt.xyz/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="link black dim">
+        如何用hugo搭建个人博客
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      安装  环境：windows   将hugo.exe移动至/D/Software/hugo目录 将路径添加到path 启动终端，使用hugo version验证安装  创建站点 hugo new site quickstart 生成一个quickstart项目
+选择主题 首先，从Github下载主题并添加至本地theme目录
+cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 然后向站点配置文件config.toml添加此主题
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml 写博客  使用new命令新建博客：  hugo new posts/my-first-post.md 新文件的模板如下：
+--- title: &quot;My First Post&quot; date: 2019-03-26T08:47:11+01:00 draft: true --- 修改draft选项为true以应用草稿
+预览 hugo server -D 即可在本地http://localhost:1313/预览
+部署  在quickstar目录中新建.gitignore，写入/public/ cd public/ git init git add . git commit -v  在Github上新建一个名为x.
+    </div>
+  </div>
+</div>
+</div>
       
         <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
