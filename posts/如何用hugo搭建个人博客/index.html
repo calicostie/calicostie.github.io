@@ -32,7 +32,7 @@ cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme
 echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml 写博客  使用new命令新建博客：  hugo new posts/my-first-post.md 新文件的模板如下：
 --- title: &quot;My First Post&quot; date: 2019-03-26T08:47:11&#43;01:00 draft: true --- 修改draft选项为true以应用草稿
 预览 hugo server -D 即可在本地http://localhost:1313/预览
-部署  在quickstar目录中新建.gitignore，写入/public/ cd public/ git init git add . git commit -v  在Github上新建一个名为x." />
+部署  在quickstar目录中新建.gitignore，写入/public/  第一次发布需要配置public  git init git remote add origin git@github." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://lllllxxt.xyz/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2020-04-25T14:45:15+08:00" />
@@ -44,10 +44,10 @@ cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme
 echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml 写博客  使用new命令新建博客：  hugo new posts/my-first-post.md 新文件的模板如下：
 --- title: &quot;My First Post&quot; date: 2019-03-26T08:47:11&#43;01:00 draft: true --- 修改draft选项为true以应用草稿
 预览 hugo server -D 即可在本地http://localhost:1313/预览
-部署  在quickstar目录中新建.gitignore，写入/public/ cd public/ git init git add . git commit -v  在Github上新建一个名为x.">
+部署  在quickstar目录中新建.gitignore，写入/public/  第一次发布需要配置public  git init git remote add origin git@github.">
 <meta itemprop="datePublished" content="2020-04-25T14:45:15&#43;08:00" />
 <meta itemprop="dateModified" content="2020-04-25T14:45:15&#43;08:00" />
-<meta itemprop="wordCount" content="86">
+<meta itemprop="wordCount" content="91">
 
 
 
@@ -59,7 +59,7 @@ cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme
 echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml 写博客  使用new命令新建博客：  hugo new posts/my-first-post.md 新文件的模板如下：
 --- title: &quot;My First Post&quot; date: 2019-03-26T08:47:11&#43;01:00 draft: true --- 修改draft选项为true以应用草稿
 预览 hugo server -D 即可在本地http://localhost:1313/预览
-部署  在quickstar目录中新建.gitignore，写入/public/ cd public/ git init git add . git commit -v  在Github上新建一个名为x."/>
+部署  在quickstar目录中新建.gitignore，写入/public/  第一次发布需要配置public  git init git remote add origin git@github."/>
 
   </head>
 
@@ -187,22 +187,27 @@ draft: true
 <h2 id="部署">部署</h2>
 <ol>
 <li>在<code>quickstar</code>目录中新建<code>.gitignore</code>，写入<code>/public/</code>
-<pre><code>cd public/
-git init
+<ul>
+<li>第一次发布需要配置<code>public</code></li>
+</ul>
+<pre><code>git init
+git remote add origin git@github.com:xxxx/x.github.io.git
 git add .
 git commit -v
-</code></pre></li>
-<li>在Github上新建一个名为<code>x.github.io</code>的repo</li>
-<li>将源码提交到该repo
-<pre><code>git add .
-git commint -v
-git remote add origin git@github.com:xxxx/x.github.io.git
 git push -u origin master
 </code></pre></li>
+<li>在Github上新建一个名为<code>x.github.io</code>的repo</li>
 <li>在<code>setting</code>的<code>Git pages</code>中选择<code>master</code>分支</li>
 <li>在<code>Custom domain</code>中填写域名</li>
 </ol>
-<ul class="pa0">
+<h2 id="发布">发布</h2>
+<p>第一次配置完成后，再次发布或编辑只需要执行</p>
+<pre><code>hugo
+cd public/
+git add .
+git commit -v
+git push
+</code></pre><ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">

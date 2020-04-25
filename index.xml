@@ -23,7 +23,7 @@ cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme
 echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml 写博客  使用new命令新建博客：  hugo new posts/my-first-post.md 新文件的模板如下：
 --- title: &amp;quot;My First Post&amp;quot; date: 2019-03-26T08:47:11+01:00 draft: true --- 修改draft选项为true以应用草稿
 预览 hugo server -D 即可在本地http://localhost:1313/预览
-部署  在quickstar目录中新建.gitignore，写入/public/ cd public/ git init git add . git commit -v  在Github上新建一个名为x.</description>
+部署  在quickstar目录中新建.gitignore，写入/public/  第一次发布需要配置public  git init git remote add origin git@github.</description>
     </item>
     
     <item>
